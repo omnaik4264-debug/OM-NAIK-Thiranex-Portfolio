@@ -39,7 +39,7 @@ form.addEventListener("submit", async (event) => {
     statusText.textContent = "Sending...";
 
     try {
-        const response = await fetch("/contact", {
+       const response = await fetch("https://my-portfolio-backend.example.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
