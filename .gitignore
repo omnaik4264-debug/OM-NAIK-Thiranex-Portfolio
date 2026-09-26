@@ -1,0 +1,6 @@
+portfolio.db
+_pycache_/
+*.pyc
+venv/
+.venv/
+.env
